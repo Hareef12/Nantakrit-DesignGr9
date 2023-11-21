@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.auto-style1 {
+	margin-left: 40px;
+}
+.auto-style2 {
+	margin-left: 80px;
+}
+.auto-style3 {
+	text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Information page 2</h1>
+	<p class="auto-style3"><a href="tour.html">
+	<span class="auto-style12">return back</span></a></p>
+  <p>Places to visit in Phuket</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>
+<img alt="Photo of ภูเก็ตไฟหน้ารถยนต์" class="auto-style1" height="254" src="https://lh3.googleusercontent.com/p/AF1QipO1inIn8-3tquETRQU_6Y9qwBxURI2egHLWmsGA=s1360-w1360-h1020" width="361" /></h2>
+    <p>Phuket Big Buddha, or The Great Buddha of Phuket, is a 
+seated Maravija Buddha statue in Phuket, Thailand. The official name is Phra 
+Phutta Ming Mongkol Eknakiri, shortened to Ming Mongkol Buddha. Sitting atop 
+Nakkerd Hill near Chalong, construction began in 2004. Expansion of the base was 
+ongoing as of 2015.</p>
+  </div>
+  
+  <div class="column">
+    <h2>&nbsp;</h2>
+	  <h2>
+<img alt="Photo" class="auto-style2" height="252" src="https://lh3.googleusercontent.com/p/AF1QipMX2hvDyOS6oGkYcpU7v5d611WS0sWpXpjSFM0p=s1360-w1360-h1020" width="395" /></h2>
+    <p>Rumored to be the most beautiful 
+beach in all of Thailand, Freedom Beach is a scenic oasis. A 300-meter expanse 
+of white sand beach sits between the verdant, jungle-covered hills and the 
+bright blue, clear-as-can-be water of the Andaman Sea.</p>
+  </div>
+  
+  <div class="column">
+    <h2>
+<img alt="Photo of Rup Muean Chao-athikan Wat Chalong Museum" height="254" src="https://lh3.googleusercontent.com/p/AF1QipN1ityXENGfTIbSDyiZVxfQg_9M17keqrT3dRf7=s1360-w1360-h1020" class="auto-style9" width="387" /></h2>
+    <p>The most important of the 29 buddhist temples of Phuket 
+is Wat Chalong or formally Wat Chaiyathararam, located in the Chalong 
+Subdistrict, Mueang Phuket District.&nbsp;</p>
+  
+  <div class="column" style="width: 93%">
+    <h2>
+	<img alt="Photo" height="244" src="AF1QipOGrW3A_wHuKzIVNUrSvuvpPnjzKqtet2TPxkU3=s1360-w1360-h1020.jpg" width="380"></h2>
+    <p>Verdant park for rescued elephants where visitors can feed &amp; bathe the 
+	animals on guided tours.</p>
+  </div>
+  </div>
+	<div class="column" style="width: 93%">
+    	<h2 style="width: 439px">&nbsp;</h2>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+

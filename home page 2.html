@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {  
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {  
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.auto-style1 {
+	color: #FFFFFF;
+}
+.auto-style3 {
+	color: #000000;
+}
+.auto-style4 {
+	margin-left: 6px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>&nbsp;</p>
+</div>
+
+<div class="topnav">
+  &nbsp;<a href="Contact.html" class="auto-style3">Contact</a>
+  <a href="tour.html" class="auto-style1">Information</a>
+  <a href="index.html" class="auto-style1">home</a></div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Phuket</h2>
+		<p><img alt="" height="176" src="download.jpg" width="286"></p>
+      <p>Phuket City, on Phuket Island, is the capital of Thailand’s Phuket 
+	  Province. In the Old Town, Thalang Road is lined with colorful 
+	  19th-century shophouses and Sino-Portuguese buildings. Built in 1903 by a 
+	  wealthy tin merchant, Baan Chinpracha mansion has Italian floor tiles, 
+	  shuttered windows and antique furniture. Set in a 1930s manor, the Thai 
+	  Hua Museum has exhibits on Phuket’s culture and history.</p>
+      <h2>Maps on Phuket</h2>
+		<p>
+		<img alt="Phuket map hi-res stock photography and images - Alamy" class="auto-style4" height="716" src="phuket-road-and-beach-map-FPFHPA.jpg" width="502"></p>
+		<p>&nbsp;</p>
+    </div>
+    <div class="card">
+      <h2>Facts</h2>
+		<p><img alt="" height="159" src="buddha.jpg" width="220"></p>
+      <p>Phuket is famous for a number of things like exotic beaches, vibrant 
+	  nightlife, colorful night markets, delicious seafood, white marble Big 
+	  Buddha and of course scuba di</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Furthur information </h3>
+      <p>contact: snis0228@snis.edu.in</p>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3 style="width: 117px">History of Phuket </h3>
+      <p style="width: 225px">Back in the 11th Century, Phuket used to be known 
+	  as “Junk Ceylon” because it was only populated by sea gypsies and nomad 
+	  tribes. Its current name came from the word “bukit” which means hill in 
+	  Malay due to its hilly landscape.</p>
+    </div>
+  </div>
+    </div>
+  </div>
+  <a href="tour.html" class="auto-style1"></a>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Quick Facts</h3>
+        <ul>
+			<li>Phuket was formerly known as Thlang, meaning “cape”. </li>
+			<li>The word “Phuket” actually means mountain jewel.</li>
+			<li>It's the second-smallest province of Thailand.</li>
+		</ul>
+    </div>
+  </div>
+  </div>
+
+<div class="footer">
+  <h2><a href="facts.html">About us</a></h2>
+</div>
+
+</body>
+</html>
+
+
